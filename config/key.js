@@ -3,6 +3,8 @@ const mongoose = require('mongoose');
 /* Mongo Connection */
 let mongoURI = '';
 
+const secretOrKey = 'secret123-'
+
 // process.env.MONGODB_URI will only be defined if you are running on Heroku
 if (process.env.MONGODB_URI) {
   // Heroku will provide this when deployed
@@ -22,3 +24,8 @@ mongoose.connection.once('open', () => {
 mongoose.connection.on('error', (err) => {
   console.log('Error on mongoose connection: ', err);
 });
+
+
+module.exports = {
+  secretOrKey
+}

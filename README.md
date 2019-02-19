@@ -1,3 +1,3 @@
-# devconnector
+# Devconnector
 
-### App using React.js, MongoDB, Express
+### App (devconnector) using React.js, MongoDB, Express

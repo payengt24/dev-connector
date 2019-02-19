@@ -1,3 +1,3 @@
 # Devconnector
 
-### App (devconnector) using React.js, MongoDB, Express
+### App using React.js, MongoDB, Express, Passport

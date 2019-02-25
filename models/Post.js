@@ -11,10 +11,18 @@ const PostSchema = new Schema({
         type: String,
         required: true
     },
+    name: {
+        type: String
+    },
+    avatar: {
+        type: String
+    },
  
     likes: [{
-        type: Schema.Types.ObjectId,
-        ref: 'users'
+        user: {
+            type: Schema.Types.ObjectId,
+            ref: 'users'
+        }
 
     }],
     comments: [{

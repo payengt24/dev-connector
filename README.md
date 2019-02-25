@@ -2,6 +2,12 @@
 
 DevConnector: A social network for developers
 
-### App built using React.js, MongoDB, Express, Passport
+### Getting started
 
-## Run application by typing npm run dev
+    -NPM install
+    -npm run dev
+
+### Technology 
+
+React.js, MongoDB, Express, Passport
+

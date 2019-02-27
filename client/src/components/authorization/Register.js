@@ -19,6 +19,7 @@ class Register extends Component {
 
 
   handleChange = (event) => {
+    
     this.setState({
       [event.target.name]: event.target.value
     })
@@ -55,7 +56,7 @@ class Register extends Component {
         <div className="col-md-8 m-auto">
           <h1 className="display-4 text-center">Sign Up</h1>
           <p className="lead text-center">Create your DevConnector account</p>
-          <form onSubmit={this.handleSubmit}>
+          <form noValidate onSubmit={this.handleSubmit}>
             <div className="form-group">
               <input 
               type="text"
